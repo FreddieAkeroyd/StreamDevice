@@ -1,0 +1,5 @@
+MODULES=sncseq asyn 
+
+BASE=3.15
+ASYN=R4-34
+SNCSEQ=R2-2-8
