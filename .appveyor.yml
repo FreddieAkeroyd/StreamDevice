@@ -95,6 +95,8 @@ environment:
   matrix:
   - CMP: vs2013
     APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2013
+  - CMP: vs2013
+    APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2015
   - CMP: vs2019
     APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2019
 #  - CMP: gcc
