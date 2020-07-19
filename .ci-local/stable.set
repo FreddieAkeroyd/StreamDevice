@@ -1,4 +1,4 @@
-MODULES=sncseq asyn calc sscan pcre
+MODULES=pcre sncseq sscan calc asyn
 
 BASE=3.15
 SNCSEQ=R2-2-8
