@@ -60,8 +60,8 @@ image: Visual Studio 2015
 configuration:
   - default
   - static
-  - debug
-  - static-debug
+#  - debug
+#  - static-debug
 
 # Environment variables
 
