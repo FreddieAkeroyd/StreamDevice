@@ -60,8 +60,8 @@ image: Visual Studio 2015
 configuration:
   - default
   - static
-#  - debug
-#  - static-debug
+  - debug
+  - static-debug
 
 # Environment variables
 
@@ -93,22 +93,20 @@ environment:
   W: 1
 
   matrix:
-  - CMP: vs2013
-    APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2013
-  - CMP: vs2013
-    APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2015
-  - CMP: vs2019
-    APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2019
-#  - CMP: gcc
   - CMP: vs2019
     APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2019
   - CMP: vs2019
     APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2019
+  - CMP: gcc
   - CMP: vs2017
     APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2017
   - CMP: vs2015
     APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2015
-#  - CMP: vs2012
+  - CMP: vs2013
+    APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2013
+  - CMP: vs2013
+    APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2015
+  - CMP: vs2012
 #  - CMP: vs2010
 #  - CMP: vs2008
 
